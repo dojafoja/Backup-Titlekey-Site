@@ -8,9 +8,9 @@ Usage:
 
 To backup the titlekey site:
  1. Download and extract all files into a folder
- 2. Open the file called keysite_url.txt and enter the URL to the titlekey site. Save file.
+ 2. Open the file called keysite_url.txt and enter the URL to the online titlekey site. Save file.
  3. Run backup_keysite.py and wait for it to finish.
- 4. You can periodically run backup_keysite.py and it will check your backup against the online site and update itself.
+ 4. That's it! You can periodically run backup_keysite.py and it will check your backup against the online site and update itself.
 
 To self-host your backed up titlekey site:
  1. Run the included server.py file. You are now self-hosting!
