@@ -7,12 +7,13 @@ import socket
 try:     
     from SimpleHTTPServer import SimpleHTTPRequestHandler
     from BaseHTTPServer import HTTPServer
+    import commands
     
 #Python 3.x imports
 except ImportError:
     from http.server import SimpleHTTPRequestHandler
     from http.server import HTTPServer
-
+    import subprocess as commands
 
 def get_ip_address():
     if os.name == 'posix':
